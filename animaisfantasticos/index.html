@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +9,20 @@
   <script>document.documentElement.className += ' js';</script>
   <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
-
 <body>
   <div class="grid-container">
     <nav class="menu" data-menu="suave">
       <ul>
         <li><a href="#animais">Animais</a></li>
+        <li data-dropdown>
+          <a href="sobre.html">Sobre</a>
+          <ul class="dropdown-menu">
+            <li><a href="empresa.html">A Empresa</a></li>
+            <li><a href="equipe.html">Equipe</a></li>
+            <li><a href="socios.html">Sócios</a></li>
+            <li><a href="investidores.html">Investidores</a></li>
+          </ul>
+        </li>
         <li><a href="#faq">Faq</a></li>
         <li><a href="#contato">Contato</a></li>
         <li><a data-modal="abrir" href="login.html">Login →</a></li>
@@ -50,7 +57,7 @@
             por um focinho comprido e uma cauda longa e peluda.</p>
           <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
         </section>
-
+        
         <section data-anime="show-right">
           <h2>Esquilo</h2>
           <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados
@@ -118,14 +125,14 @@
 
     <section class="grid-section contato" data-anime="scroll" id="contato">
       <h1 class="titulo">Contato</h1>
-      <div class="mapa">
+      <div class="mapa" data-tooltip aria-label="Endereço próximo ao estacionamento.">
         <img src="img/mapa.png">
       </div>
       <ul class="dados">
-        <li>contato@animais.com</li>
-        <li>+55 (51) 9999-9999</li>
+        <li>contato@origamid.com</li>
+        <li>+55 (21) 9999-9999</li>
         <li>Rua do Conde, nº 21</li>
-        <li>Porto Alegre - RS</li>
+        <li>Rio de Janeiro - RJ</li>
       </ul>
     </section>
 
@@ -146,7 +153,6 @@
       </form>
     </div>
   </section>
-  <script type="module" src="js/script.js"></script>
+  <script type="module" src="js/script.js"></script>  
 </body>
-
 </html>
