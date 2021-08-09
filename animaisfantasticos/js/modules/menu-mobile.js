@@ -13,7 +13,8 @@ export default function initMenuMobile() {
       menuButton.classList.remove('active');
     });
   }
+
   if (menuButton) {
-    eventos.forEach((evento) => menuButton.addEventListener(evento, openMenu));
+    eventos.forEach(evento => menuButton.addEventListener(evento, openMenu));
   }
 }
