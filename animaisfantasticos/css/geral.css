@@ -57,6 +57,10 @@ body {
   letter-spacing: 0.1em;
 }
 
+.menu li a:hover {
+  color: #e54;
+}
+
 .grid-section {
   grid-column: 2 / 4;
   width: 100%;
@@ -153,6 +157,10 @@ body {
   height: 10px;
   margin-right: 10px;
   background: #fb5;
+}
+
+.faq-lista dt.ativo::before {
+  background: #3f4;
 }
 
 .faq-lista dd {
