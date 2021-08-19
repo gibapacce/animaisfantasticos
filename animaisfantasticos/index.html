@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
   <script>document.documentElement.className += ' js';</script>
   <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
+
 <body>
   <div class="grid-container">
     <nav class="menu" data-menu="suave">
@@ -26,7 +28,7 @@
         </li>
         <li><a href="#faq">Faq</a></li>
         <li><a href="#contato">Contato</a></li>
-        <li><a data-modal="abrir" href="login.html">Login →</a></li>
+        <li><a data-modal="abrir" href="login.html">Login <span class="arrow-black"></span></a></li>
       </ul>
     </nav>
     <section class="grid-section animais" data-anime="scroll" id="animais">
@@ -60,7 +62,7 @@
           <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados
             por um focinho comprido e uma cauda longa e peluda.</p>
         </section>
-        
+
         <section data-anime="show-right">
           <h2>Esquilo</h2>
           <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados
@@ -175,7 +177,7 @@
 
   <section class="modal-container" data-modal="container">
     <div class="modal">
-      <button data-modal="fechar" class="fechar">X</button>
+      <button data-modal="fechar" class="fechar"></button>
       <form action="">
         <label for="email">Email</label>
         <input type="text" for="email" id="email">
@@ -185,6 +187,7 @@
       </form>
     </div>
   </section>
-  <script src="main.js"></script>  
+  <script src="main.js"></script>
 </body>
+
 </html>
